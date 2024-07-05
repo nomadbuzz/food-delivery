@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde eveniet nobis voluptas vel quae expedita. Ipsa molestias perspiciatis iure quos facere, similique eos aliquid repellat, sequi fugit, enim ut.</p>
+                <p>BuzzBistro offers a delightful dining experience with a diverse menu and exceptional service. Enjoy our delicious dishes delivered straight to your door for ultimate convenience. Visit us for a culinary treat or order online for home delivery.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon}  alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="footer-content-center">
                 <h2>BuzzBistro</h2>
                 <ul>
-                    <li>Home</li>
+                    <li href='#explore-menu'>Home</li>
                     <li>About us</li>
                     <li>Delivery</li>
                     <li>Privacy Policy</li>
